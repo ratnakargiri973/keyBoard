@@ -5,7 +5,6 @@ let pressed = document.getElementById('pressed');
 let value = document.getElementById('value');
 pressed.style.display = "none";
 value.style.display = "none";
-// result.style.backgroundColor = "none";
 window.addEventListener('keydown', function(event){
         start.style.display="none";
         const key = event.key;
